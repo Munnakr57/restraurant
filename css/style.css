@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6,p, span, ul, li {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: #FFEDF1;
+}
+body {
+    background-color: #FFEDF1;
+}
+/* :root {
+    --primary-font: "Playfair Display", serif;
+    --secondary-font: "Mulish", sans-serif;
+    --primary-color:#322829;  
+    --secondary-color:#DACBCE;
+    --title-color:#7B3955;
+    --btn-color:#FFD9F2;
+    --background-color:#FFEDF1;
+} */
+li {
+    list-style: none;
+}
+.container{
+    max-width:1600px;
+    width:100%;
+    margin: 0 auto;
+}
+.container-full {position: relative;}
+.second-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-btn a {
+    background-color: #DABA53;
+    padding: 15px 20px;
+    color:#7B3955;
+    font-family:"Mulish", sans-serif;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: ease 0.4s;
+}
+.banner-btn a:hover {
+    background-color: #7B3955;
+    color: #fff;
+    cursor: pointer;
+    transition: ease 0.4s;
+}
+.banner-image img {
+    width: 100%;
+    object-fit: cover;
+    height: 100vh;
+}
+.banner-content {
+    text-align: center;
+}
+.bannner-content-col {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 30%;
+}
+.banner-content h1 {
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.banner-content p {
+    font-size: 16px;
+    font-family:"Mulish", sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.3em;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.banner-content .banner-btn {
+    margin-top: 50px;
+}
+
+/* Who we are */
+.who-we-are-section {
+    padding: 60px 0 0;
+
+}
+.row-padding {
+    padding: 0px 0 60px;
+}
+.content-image img {
+    width: 100%;
+    object-fit: cover;
+    height:600px;
+    margin-bottom: 10px;
+}
+.left-content {
+    padding: 20px;
+}
+.all_button a {
+    background-color: #7B3955;
+    padding: 15px 20px;
+    color:#fff;
+    font-family:"Mulish", sans-serif;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: ease 0.4s;
+}
+.all_button a:hover{
+    background-color: #322829;
+    color: #fff;
+    cursor: pointer;
+    transition: ease 0.4s;  
+}
+.left-content h2 {
+    color: #7B3955;
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+.all-common-heading h4 {
+    font-size: 12px;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.all-common-heading h3 {
+    font-size: 35px;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 15px;
+    color:#7B3955;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.2em;
+}
+.all-common-heading p {
+    font-size: 12px;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 1.6em;
+    
+}
+.right-para-content p {
+    font-size: 10px;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 40px;
+    line-height: 1.6em; 
+}
+
+/* Our Services */
+.our_services_section {
+    padding: 60px 0;
+}
+.service-image img {
+    width: 100%;
+    object-fit: cover;
+}
+.services-row {
+    display: flex;
+}
+.services-col {
+    width: calc(33% - 30px);
+    margin: 0 15px 30px ;
+}
+.service-image-content {
+    padding: 20px 20px 10px;
+    text-align: center;
+}
+.service-content {
+    text-align: center;
+}
+.serv-content-para p {
+    font-size: 12px;
+    font-family:"Mulish", sans-serif;
+    margin-bottom: 20px;
+    line-height: 1.6em;   
+}
+.service-image-content h3 {
+    font-size: 25px;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 2px;
+    color:#7B3955;
+    line-height: 1.2em;
+}
+.service-image-content h5 {
+    font-size: 15px;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 2px;
+    color:#322829;
+    line-height: 1.2em;
+}
+.our_services_section .all_button{text-align: center;}
+.arrow-btn a i {
+    font-size: 25px;
+    color:#322829;
+    transition: ease 0.5s;
+}
+.arrow-btn a:hover i{
+    padding-left:15px;
+    transition: ease 0.5s;
+    cursor: pointer;
+}
+.our_services_section .all-common-heading{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* REsponsive css */
+@media(min-width:1200px) and (max-width:1440px) {
+    .container{
+        max-width:90%;
+        width:100%;
+        margin: 0 auto;
+    }
+}
+@media(max-width:767px) {
+    .container {
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+    }
+ 
+
+}
+
+
+@media(min-width:768px) and (max-width:991px) {
+  
+
+}
+@media(min-width:992px) and (max-width:1199px) {
+   
+    
+}
