@@ -96,6 +96,7 @@ li {
 }
 .row-padding {
     padding: 0px 0 60px;
+    border-bottom: 1px solid #ccc;
 }
 .content-image img {
     width: 100%;
