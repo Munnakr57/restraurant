@@ -306,6 +306,7 @@ li {
     width: 50px;
     background: var(--background-color);
     border: 1px solid #DCDCDC;
+    z-index: 999
 }
 #client_slider .owl-nav .owl-next {
     color: #222;
@@ -317,6 +318,7 @@ li {
     width: 50px;
     background: var(--background-color);
     border: 1px solid #DCDCDC;
+    z-index: 999;
 }
 #client_slider .owl-nav .owl-prev span {
     font-size: 40px;
