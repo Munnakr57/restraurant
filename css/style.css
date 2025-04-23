@@ -138,6 +138,12 @@ li {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+.who-para p {
+    font-size: 16px;
+    font-family:"Mulish", sans-serif;
+    margin-bottom: 20px;
+    line-height: 1.6em; 
+}
 .all-common-heading h3 {
     font-size: 35px;
     font-family: "Playfair Display", serif;
@@ -156,7 +162,7 @@ li {
     
 }
 .right-para-content p {
-    font-size: 10px;
+    font-size: 15px;
     font-family: "Playfair Display", serif;
     margin-bottom: 40px;
     line-height: 1.6em; 
@@ -185,7 +191,7 @@ li {
     text-align: center;
 }
 .serv-content-para p {
-    font-size: 12px;
+    font-size: 16px;
     font-family:"Mulish", sans-serif;
     margin-bottom: 20px;
     line-height: 1.6em;   
