@@ -63,7 +63,7 @@ li {
 }
 .bannner-content-col {
     position: absolute;
-    top: 50%;
+    top: 35%;
     /* transform: translateY(-50%); */
     left: 27%;
 }
@@ -636,6 +636,6 @@ z-index:9999;
 @media(min-width:992px) and (max-width:1199px) {
     .banner-image img {  height: 100%;  }
     .bannner-content-col { top: 32%;  left: 19%; }
-    
+
     
 }
