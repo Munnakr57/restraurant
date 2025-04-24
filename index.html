@@ -279,7 +279,7 @@
                             <p><i class="fa-solid fa-quote-left fa-flip-horizontal"></i></p>
                         </div>
                         <div class="client-name">
-                            <p>David Lee</p>
+                            <p>David Warner</p>
                         </div>
                  </div>
             </div>
@@ -299,7 +299,7 @@
                             <p><i class="fa-solid fa-quote-left fa-flip-horizontal"></i></p>
                         </div>
                         <div class="client-name">
-                            <p>David Lee</p>
+                            <p>David Loren</p>
                         </div>
                  </div>
             </div>
@@ -448,19 +448,11 @@
                    </div>
                </a>
             </div>
-            <div id="video-popup" style="display: none; position: fixed; top: -200px; left: 0px; width: auto; height: 100vh; background: rgba(0, 0, 0, 0.85); z-index: 9999; justify-content: center; align-items: center; transition: opacity 0.3s; opacity: 1;">
-                <div style="position: relative; width: 90%; max-width: 800px;">
-                  <!-- ❌ Close Button -->
-                  <span id="close-popup" style="position:absolute;
-                  top: 17px;
-                  right: 12px;
-                  font-size: 40px;
-                  color: white;
-                  cursor: pointer;
-                  z-index:9999;
-                  ">×</span>
+            <div id="video-popup" style="display: none; position: fixed; top: 0px; left: 0px; width: auto; height: 100%; background: rgba(0, 0, 0, 0.85); z-index: 9999; justify-content: center; align-items: center; transition: opacity 0.3s; opacity: 1;">
+                <div style="position: relative; width: 100%; max-width: 100%;">
+                  <!-- Close Button -->
+                  <span id="close-popup">×</span>
               
-                  <!-- 📼 Video Element -->
                   <video id="custom-video" width="100%" controls="" style="border-radius: 10px;" class="appl1-hdvd-xx">
                     <source src="./images/POP-Video.mp4" type="video/mp4">
                     Your browser does not support the video tag.
@@ -486,18 +478,22 @@
       margin: 0,
       autoplay: true,
       autoplaySpeed: 3500,
-      dots: true,
+      dots: false,
       nav: true,
       animateOut: 'slideOutRight',
     animateIn: 'slideInRight',
       responsiveClass: true,
       responsive: {
         320: {
-          items: 1
+          items: 1,
+          dots: true,
+          nav: false
        
         },
         480: {
-          items: 1
+          items: 1,
+          dots: true,
+        nav: false
          
         },
         768: {
