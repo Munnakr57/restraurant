@@ -494,7 +494,93 @@ z-index:9999;
 }
 
 
+/* -----------------------------------services CSS ---------------------------------- */
+/* Banner css */
+.about-banner-section .bannner-content-col {
+    width:100%;
+    left: 0;
+    top: 40%
+}
+.about-banner-section .bannner-content-col h1 {
+    font-size: 65px;
+   
+}
+/* text-media section */
 
+.padding-top-bottom {
+    padding: 60px 0;
+}
+.text-media-row {
+    display: flex;
+    align-items: center;
+}
+.text-media-row .text-media-col1 {
+    width: 55%;
+    padding: 0 15px;
+}
+.text-media-row .text-media-col2 {
+    width: 45%;
+    padding: 0 15px 0 40px;
+}
+.media-image img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}   
+.media-desc p {
+    font-size: 16px;
+    font-family:"Mulish", sans-serif;
+    margin-bottom: 20px;
+    color:#000;
+    line-height: 1.6em;
+}
+.text-media-section2 .text-media-row {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.text-media-section2 .text-media-col1 {
+    width: 55%;
+    padding: 0 15px;
+}
+.text-media-section2 .text-media-col2 {
+    width: 45%;
+    padding: 0 40px 0 15px;
+}
+.media-desc p {
+    font-size: 16px;
+    font-family:"Mulish", sans-serif;
+    margin-bottom: 20px;  
+}
+.media-desc p:last-child {
+   font-weight: 600;
+}
+.text-media-section2 .row {
+    flex-direction: row-reverse;
+}
+/* contact us button section 2 */
+
+.contact-us-btn-section2 {
+    background-color: #7B3955;
+}
+.contact-us-btn-section2 .text-content-para h3 {
+    color: #fff;
+}
+.contact-us-btn-section2 .btn-content .all_button a {
+    background-color: #fff;
+    color: #921356;
+}
+.contact-us-btn-section2 .btn-content .all_button a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* -----------------------------------Blog page ------------------------------------------- */
+
+.blog-desc p:last-child {
+   margin-bottom: 50px;
+}
 
 
 
